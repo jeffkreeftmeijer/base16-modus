@@ -1,16 +1,16 @@
 base00: "0d0e1c" # bg-main
-base01: "800000" # red
-base02: "008000" # green
-base03: "808000" # yellow
-base04: "000080" # blue
-base05: "800080" # magenta
-base06: "008080" # cyan
-base07: "c0c0c0" # white
-base08: "4a4f59" # bg-active
-base09: "ff0000" # bright red
-base0A: "00ff00" # bright green
-base0B: "ffff00" # bright yellow
-base0C: "0000ff" # bright blue
-base0D: "ff00ff" # bright magenta
-base0E: "00ffff" # bright cyan
-base0F: "ffffff" # bright white
+base01: "ff5f59" # bg-term-red
+base02: "44bc44" # bg-term-green
+base03: "d0bc00" # bg-term-yellow
+base04: "2fafff" # bg-term-blue
+base05: "feacd0" # bg-term-magenta
+base06: "00d3d0" # bg-term-cyan
+base07: "c6daff" # fg-alt
+base08: "4a4f69" # bg-active
+base09: "ff6b55" # bg-term-red-bright
+base0A: "00c06f" # bg-term-green-bright
+base0B: "fec43f" # bg-term-yellow-bright
+base0C: "79a8ff" # bg-term-blue-bright
+base0D: "b6a0ff" # bg-term-magenta-bright
+base0E: "6ae4b9" # bg-term-cyan-bright
+base0F: "ffffff" # fg-main
