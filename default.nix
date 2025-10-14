@@ -1,2 +1,2 @@
 {nix-colors}:
-nix-colors.lib.schemeFromYAML "modus-vivendi-tinted" (builtins.readFile ./modus-vivendi-tinted.yaml)
+nix-colors.lib.schemeFromYAML "ef-cherie" (builtins.readFile ./ef-cherie.yaml)
