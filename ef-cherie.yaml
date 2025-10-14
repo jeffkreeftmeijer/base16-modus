@@ -1,0 +1,16 @@
+base00: "190a0f" # bg-main
+base01: "ff7359" # bg-term-red, red
+base02: "60b444" # bg-term-green, green
+base03: "e5b76f" # bg-term-yellow, yellow
+base04: "8fa5f6" # bg-term-blue, blue
+base05: "ef80bf" # bg-term-magenta, magenta
+base06: "8fbaef" # bg-term-cyan, cyan
+base07: "bf9cdf" # fg-alt
+base08: "594a4f" # bg-active
+base09: "ff656f" # bg-term-red-bright, red-warmer
+base0A: "60bf88" # bg-term-green-bright, green-cooler
+base0B: "ea9955" # bg-term-yellow-bright, yellow-warmer
+base0C: "a897ef" # bg-term-blue-bright, blue-warmer
+base0D: "df7fff" # bg-term-magenta-bright, magenta-cooler
+base0E: "8fcfdf" # bg-term-cyan-bright, cyan-cooler
+base0F: "d3cfcf" # fg-main
