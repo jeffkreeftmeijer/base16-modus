@@ -1,4 +1,4 @@
-(dolist (theme ef-themes-collection)
+(dolist (theme (append modus-themes-collection ef-themes-collection))
   (let ((palette (symbol-value (intern (concat (symbol-name theme) "-palette")))))
     (write-region
      (concat
