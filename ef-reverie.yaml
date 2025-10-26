@@ -11,6 +11,6 @@ base09: "a83058" # red-cooler
 base0A: "a73080" # magenta-warmer
 base0B: "87591f" # yellow
 base0C: "a05900" # yellow-wamer
-base0D: "906045" # yellow-cooler
+base0D: "5059c0" # blue-warmer
 base0E: "5059c0" # blue-warmer
 base0F: "3060af" # cyan
