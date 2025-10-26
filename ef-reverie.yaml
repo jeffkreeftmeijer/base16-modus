@@ -2,7 +2,7 @@ base00: "f3eddf" # bg-main
 base01: "e5d6d4" # bg-dim
 base02: "d9cac8" # bg-alt
 base03: "b9aaa8" # bg-active
-base04: "55447f" # fg-alt
+base04: "5059c0" # blue-warmer
 base05: "4f204f" # fg-main
 base06: "6f6877" # fg-dim
 base07: "e5d6d4" # bg-dim
