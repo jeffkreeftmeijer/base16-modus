@@ -5,7 +5,7 @@ base03: "bdb9b9" # bg-active
 base04: "4250ef" # blue-warmer
 base05: "1a1a1a" # fg-main
 base06: "756275" # fg-dim
-base07: "efecec" # bg-dim
+base07: "194f90" # bg-alt
 base08: "af40af" # magenta-cooler
 base09: "c50f4f" # red-cooler
 base0A: "bf256a" # magenta-warmer

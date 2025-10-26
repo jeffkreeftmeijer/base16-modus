@@ -9,7 +9,7 @@
       "base04: \"" (substring (car (alist-get 'blue-warmer palette)) 1) "\" # blue-warmer\n"
       "base05: \"" (substring (car (alist-get 'fg-main palette)) 1) "\" # fg-main\n"
       "base06: \"" (substring (car (alist-get 'fg-dim palette)) 1) "\" # fg-dim\n"
-      "base07: \"" (substring (car (alist-get 'bg-dim palette)) 1) "\" # bg-dim\n"
+      "base07: \"" (substring (car (alist-get 'fg-alt palette)) 1) "\" # bg-alt\n"
       "base08: \"" (substring (car (alist-get 'magenta-cooler palette)) 1) "\" # magenta-cooler\n"
       "base09: \"" (substring (car (alist-get 'red-cooler palette)) 1) "\" # red-cooler\n"
       "base0A: \"" (substring (car (alist-get 'magenta-warmer palette)) 1) "\" # magenta-warmer\n"
