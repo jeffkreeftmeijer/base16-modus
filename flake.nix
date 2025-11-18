@@ -21,6 +21,15 @@
             cp *.yaml $out
           '';
         };
+
+        devShell = with pkgs;
+          mkShell {
+            buildInputs = [
+              ((emacsPackagesFor emacs-nox).emacsWithPackages(epkgs: [
+                epkgs.ef-themes
+              ]))
+            ];
+          };
       }
     );
 }
