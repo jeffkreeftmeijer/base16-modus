@@ -6,7 +6,16 @@
 #+date: 18-11-2015
 #+options: toc:nil
 
-A [[https://github.com/chriskempson/base16][base16]] representation of prot's [[https://protesilaos.com/emacs/ef-themes][ef-themes]].
+A [[https://github.com/chriskempson/base16][base16]] representation of prot's [[https://protesilaos.com/emacs/ef-themes][ef-themes]], extracted from Emacs to use with [[https://github.com/nix-community/stylix][Stylix]] in my Nix-based configuration.
+
+#+begin_quote
+You are still free to use whichever port you want, though I will never debase the quality of this project by supporting ports that are simply not up to our standards.
+--- https://protesilaos.com/codelog/2022-01-23-base16-modus-themes/
+#+end_quote
+
+This is a heuristic approach to achieve consistent colors between Emacs and other utilities.
+It is not meant as a replacement for the Ef themes, or a reason not to port them to other apps manually.
+It is, given there are no handcrafted ports of the Ef themes, the best we can do.
 
 * Generate base16 YAML representations of the ef-themes
 :PROPERTIES:
