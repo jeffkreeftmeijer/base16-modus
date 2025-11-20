@@ -9,6 +9,9 @@
 A [[https://github.com/chriskempson/base16][base16]] representation of prot's [[https://protesilaos.com/emacs/ef-themes][ef-themes]].
 
 * Generate base16 YAML representations of the ef-themes
+:PROPERTIES:
+:CUSTOM_ID: base16-ef-themes-generate
+:END:
 
 The ~base16-ef-themes-generate~ function loops over each theme in ~ef-themes-collection~.
 In each iteration, it loads the theme to make sure the palette is available, then writes a representation of the theme to a YAML file named after the theme.
