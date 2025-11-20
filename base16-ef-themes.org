@@ -4,6 +4,7 @@
 #+title: base16-ef-themes
 #+author: Jeff Kreeftmeijer
 #+date: 18-11-2015
+#+options: toc:nil
 
 A [[https://github.com/chriskempson/base16][base16]] representation of prot's [[https://protesilaos.com/emacs/ef-themes][ef-themes]].
 
