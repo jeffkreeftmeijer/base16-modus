@@ -7,8 +7,8 @@
       (write-region
        (concat
         "base00: \"" (substring (car (alist-get 'bg-main palette)) 1) "\" # bg-main\n"
-        "base01: \"" (substring (car (alist-get 'bg-dim palette)) 1) "\" # bg-dim\n"
-        "base02: \"" (substring (car (alist-get 'bg-alt palette)) 1) "\" # bg-alt\n"
+        "base01: \"" (substring (car (alist-get 'bg-inactive palette)) 1) "\" # bg-inactive\n"
+        "base02: \"" (substring (car (alist-get 'bg-dim palette)) 1) "\" # bg-dim\n"
         "base03: \"" (substring (car (alist-get 'bg-active palette)) 1) "\" # bg-active\n"
         "base04: \"" (substring (car (alist-get 'blue-warmer palette)) 1) "\" # blue-warmer\n"
         "base05: \"" (substring (car (alist-get 'fg-main palette)) 1) "\" # fg-main\n"
