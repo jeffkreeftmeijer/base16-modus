@@ -1,7 +1,12 @@
+(require 'standard-themes)
+(require 'modus-themes)
 (require 'ef-themes)
 
 (defun base16-ef-themes-generate ()
-  (dolist (theme ef-themes-collection)
+  (dolist (theme (append
+                  standard-themes-collection
+                  modus-themes-collection
+                  ef-themes-collection))
     (load-theme theme t t)
     (let ((palette (symbol-value (intern (concat (symbol-name theme) "-palette")))))
       (write-region
