@@ -15,7 +15,7 @@ You are still free to use whichever port you want, though I will never debase th
 
 This is a heuristic approach to achieve consistent colors between Emacs and other utilities.
 It is not meant as a replacement for the Modus themes, or a reason not to port them to other apps manually.
-It is, given there are no handcrafted ports of the Modus themes, the best we can do.
+It is, given there are no handcrafted ports of the Modus themes, the best we can currently do.
 
 * Generate base16 YAML representations of the modus themes
 :PROPERTIES:
