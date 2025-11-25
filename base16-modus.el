@@ -2,7 +2,7 @@
 (require 'modus-themes)
 (require 'ef-themes)
 
-(defun base16-ef-themes-generate ()
+(defun base16-themes-generate ()
   (dolist (theme (append
                   standard-themes-collection
                   modus-themes-collection

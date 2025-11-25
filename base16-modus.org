@@ -1,12 +1,12 @@
 :PROPERTIES:
 :ID:       7399d851-a704-4992-993b-2e73bd89a7ed
 :END:
-#+title: base16-ef-themes
+#+title: base16-modus
 #+author: Jeff Kreeftmeijer
 #+date: 18-11-2015
 #+options: toc:nil
 
-A [[https://github.com/chriskempson/base16][base16]] representation of prot's [[https://protesilaos.com/emacs/ef-themes][ef-themes]], extracted from Emacs to use with [[https://github.com/nix-community/stylix][Stylix]] in my Nix-based configuration.
+A [[https://github.com/chriskempson/base16][base16]] representation of prot's [[https://protesilaos.com/emacs/modus-themes][Modus themes]] (and the derivative [[https://protesilaos.com/emacs/standard-themes][Standard themes]] and [[https://protesilaos.com/emacs/ef-themes][Ef themes]] ), extracted from Emacs to use with [[https://github.com/nix-community/stylix][Stylix]] in my Nix-based configuration.
 
 #+begin_quote
 You are still free to use whichever port you want, though I will never debase the quality of this project by supporting ports that are simply not up to our standards.
@@ -14,24 +14,24 @@ You are still free to use whichever port you want, though I will never debase th
 #+end_quote
 
 This is a heuristic approach to achieve consistent colors between Emacs and other utilities.
-It is not meant as a replacement for the Ef themes, or a reason not to port them to other apps manually.
-It is, given there are no handcrafted ports of the Ef themes, the best we can do.
+It is not meant as a replacement for the Modus themes, or a reason not to port them to other apps manually.
+It is, given there are no handcrafted ports of the Modus themes, the best we can do.
 
-* Generate base16 YAML representations of the ef-themes
+* Generate base16 YAML representations of the modus themes
 :PROPERTIES:
-:CUSTOM_ID: base16-ef-themes-generate
+:CUSTOM_ID: base16-modus-generate
 :END:
 
-The ~base16-ef-themes-generate~ function loops over each theme in ~ef-themes-collection~.
+The ~base16-themes-generate~ function loops over each theme in ~standard-themes-collection~, ~modus-themes-collection~, and ~ef-themes-collection~.
 In each iteration, it loads the theme to make sure the palette is available, then writes a representation of the theme to a YAML file named after the theme.
 
-#+header: :tangle base16-ef-themes.el
+#+header: :tangle base16-modus.el
 #+begin_src emacs-lisp
   (require 'standard-themes)
   (require 'modus-themes)
   (require 'ef-themes)
 
-  (defun base16-ef-themes-generate ()
+  (defun base16-themes-generate ()
     (dolist (theme (append
                     standard-themes-collection
                     modus-themes-collection
@@ -61,14 +61,14 @@ In each iteration, it loads the theme to make sure the palette is available, the
          (concat (symbol-name theme) ".yaml")))))
 #+end_src
 
-The ~Makefile~ has a ~generate~ function switch loads the ~base16-ef-themes.el~ script and runs the ~base16-ef-themes-generate~ function.
+The ~Makefile~ has a ~generate~ function switch loads the ~base16-modus.el~ script and runs the ~base16-themes-generate~ function.
 
 #+header: :tangle Makefile
 #+begin_src makefile
   .PHONY: generate
 
   generate:
-  	emacs --batch --load base16-ef-themes.el --funcall base16-ef-themes-generate
+  	emacs --batch --load base16-modus.el --funcall base16-themes-generate
 #+end_src
 
 To regenerate all themes, or to generate new ones when they're added, run ~make generate~ and commit the results.
